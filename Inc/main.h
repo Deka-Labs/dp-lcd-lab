@@ -57,12 +57,6 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define CS_I2C_SPI_Pin GPIO_PIN_3
-#define CS_I2C_SPI_GPIO_Port GPIOE
-#define MEMS_INT3_Pin GPIO_PIN_4
-#define MEMS_INT3_GPIO_Port GPIOE
-#define MEMS_INT4_Pin GPIO_PIN_5
-#define MEMS_INT4_GPIO_Port GPIOE
 #define TOUCH_CS_Pin GPIO_PIN_13
 #define TOUCH_CS_GPIO_Port GPIOC
 #define OSC32_IN_Pin GPIO_PIN_14
@@ -117,20 +111,12 @@ void Error_Handler(void);
 #define KEYBOARD_LINE_2_GPIO_Port GPIOC
 #define KEYBOARD_LINE_3_Pin GPIO_PIN_7
 #define KEYBOARD_LINE_3_GPIO_Port GPIOC
-#define DM_Pin GPIO_PIN_11
-#define DM_GPIO_Port GPIOA
-#define DP_Pin GPIO_PIN_12
-#define DP_GPIO_Port GPIOA
 #define SWDIO_Pin GPIO_PIN_13
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
 #define SWCLK_GPIO_Port GPIOA
 #define SWO_Pin GPIO_PIN_3
 #define SWO_GPIO_Port GPIOB
-#define I2C1_SCL_Pin GPIO_PIN_6
-#define I2C1_SCL_GPIO_Port GPIOB
-#define I2C1_SDA_Pin GPIO_PIN_7
-#define I2C1_SDA_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
